@@ -1,5 +1,5 @@
 ---
-title: Bitflags in Unreal C++"
+title: Bitflags in Unreal C++
 categories:
   - Unreal
 ---
