@@ -1,5 +1,5 @@
 ---
-title: How to work with interfaces in C++"
+title: Bitflags in Unreal C++"
 categories:
   - Unreal
 ---
