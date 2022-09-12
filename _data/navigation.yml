@@ -1,0 +1,11 @@
+main:
+  # - title: "Posts" -- uncomment if want to have a way to filter by post year
+  #   url: /posts/
+  - title: "Unreal"
+    url: /ue/
+  - title: "Godot"
+    url: /godot/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
