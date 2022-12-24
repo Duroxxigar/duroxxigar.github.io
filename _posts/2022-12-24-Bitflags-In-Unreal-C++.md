@@ -62,3 +62,5 @@ if (EnumHasAnyFlags(static_cast<EFireModes>(AvailableFireModes), EFireModes::Aut
   CurrentFireMode = EFireModes::Auto;
 }
 ```
+
+For a more in-depth post about bitflags in general, I've found that this post is quite helpful: https://tackytortoise.github.io/2020/11/26/using-bitflags-in-cpp.html
