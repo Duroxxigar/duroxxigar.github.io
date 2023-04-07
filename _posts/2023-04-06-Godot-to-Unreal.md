@@ -107,11 +107,11 @@ In Unreal, you are also not expected to have a separate project to handle server
 
 Here are some really good resources to get started with networking in Unreal. The first one is generally considered the holy grail of resources and is often referenced by the community:
 
-[Multiplayer Network Compendium](https://cedric-neukirchen.net/)
-[Multiplayer in Unreal Engine: How to Understand Network Replication](https://www.youtube.com/watch?v=JOJP0CvpB8w)
-[Vori's Blog](https://vorixo.github.io/devtricks/) - has some more intermediate topics, definitely visit back frequently when you get more experience!
-[Persistent Data Compendium](https://wizardcell.com/unreal/persistent-data/) - how to handle persisting data across server travel (you'll learn more about server travel during your journey in multiplayer with Unreal)
-[Multiplayer Tips and Tricks](https://wizardcell.com/unreal/multiplayer-tips-and-tricks/) - a collection of lessons learned in the fire.
+* [Multiplayer Network Compendium](https://cedric-neukirchen.net/)
+* [Multiplayer in Unreal Engine: How to Understand Network Replication](https://www.youtube.com/watch?v=JOJP0CvpB8w)
+* [Vori's Blog](https://vorixo.github.io/devtricks/) - has some more intermediate topics, definitely visit back frequently when you get more experience!
+* [Persistent Data Compendium](https://wizardcell.com/unreal/persistent-data/) - how to handle persisting data across server travel (you'll learn more about server travel during your journey in multiplayer with Unreal)
+* [Multiplayer Tips and Tricks](https://wizardcell.com/unreal/multiplayer-tips-and-tricks/) - a collection of lessons learned in the fire.
 
 ## Audio
 
@@ -145,9 +145,10 @@ One of the last important classes is the `GameInstance`. This will exist from th
 
 This is the part where I would also like to mention subsystems in Unreal. These are singleton-like objects and the lifetime of the objects are managed by the engine. There are a few subsystems you can create, with the one that is most like an Autoload being the `GameInstanceSubsystem`. You can only have one `GameInstance` per game, but you can have as many `GameInstanceSybsystem`s as you'd like. Each subsystem's lifetime is tied to the type of subsystem it is. In this case, a `GameInstance`. So it has the same lifetime as the `GameInstance`.
 
-Some helpful articles on the framework:
-[Tom Looman - Unreal Engine Gameplay Framework](https://www.tomlooman.com/unreal-engine-gameplay-framework/)
-[Alex Forsythe - from int main() to BeginPlay](https://www.youtube.com/watch?v=IaU2Hue-ApI) - he also has a few other *really* good videos about Unreal.
+Some helpful information on the framework:
+
+* [Tom Looman - Unreal Engine Gameplay Framework](https://www.tomlooman.com/unreal-engine-gameplay-framework/)
+* [Alex Forsythe - from int main() to BeginPlay](https://www.youtube.com/watch?v=IaU2Hue-ApI) - he also has a few other *really* good videos about Unreal.
 
 ## Level Design
 
@@ -169,9 +170,9 @@ Honestly, both. The engine has been transformed to support this workflow. There 
 
 Overall, Unreal is a big engine that has all the bells and whistles. You don't have to master everything all at once. This is what trips people up most of the time. Each area of Unreal typically has a dedicated window and generally has all of the tools you need to use that area of the engine. Much like most software, 90% of what you see, you won't use. But when you do need it, it is quite nice to have. That isn't to say that it is a perfect piece of software by any means. It certainly has its own problems and drawbacks. My advice will always end up being the same, pick the tool that makes the most sense for you.
 
-Here are some really helpful resources for Unreal:
+Here are some really helpful resources for Unreal overall:
 
-[Tom Looman's Blog](https://www.tomlooman.com/?post_type=post) - Former Epic engineer and longtime user of Unreal. Was using 4 before it went public.
-[Laura's Blog](https://landelare.github.io/) - Very technical and practical engineer (definitely check out her C++ speedrun post).
-[Benui](https://benui.ca/) - Seriously, explore this site. It has a lot of good information on the UI side of Unreal, as well as what the community mostly uses to look up UPROPERTY and UFUNCTION specifiers, because Epic's docs on it is lame.
-[Common Issues in C++](https://tackytortoise.github.io/2022/06/24/common-slacker-issues.html) - Covers a lot of the most common things the community sees from beginners.
+* [Tom Looman's Blog](https://www.tomlooman.com/?post_type=post) - Former Epic engineer and longtime user of Unreal. Was using 4 before it went public.
+* [Laura's Blog](https://landelare.github.io/) - Very technical and practical engineer (definitely check out her C++ speedrun post).
+* [Benui](https://benui.ca/) - Seriously, explore this site. It has a lot of good information on the UI side of Unreal, as well as what the community mostly uses to look up UPROPERTY and UFUNCTION specifiers, because Epic's docs on it is lame.
+* [Common Issues in C++](https://tackytortoise.github.io/2022/06/24/common-slacker-issues.html) - Covers a lot of the most common things the community sees from beginners.
