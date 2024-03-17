@@ -33,7 +33,7 @@ FAsyncCoroutine ACustomActor::ExampleLatent(FLatentActionInfo Info)
 	GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Yellow, "After co_await");
 }
 ```
-![Node in BP](Pics/ue5-coro-started/example-latent.png)
+![Node in BP](/images/ue5-coro-started/example-latent.png)
 
 The `FAsyncCoroutine` struct is ignored for BP and is hidden. The great thing is that the `co_await` is **not** going to block the gamethread! And yes, this is how you can do a "delay" in C++ now! Compare that to the non-coroutine way:
 
@@ -153,7 +153,7 @@ if (MonsterData)
 }
 ```
 
-![Fraction of our power](Pics/ue5-coro-started/omni-man-invincible.gif)
+![Fraction of our power](/images/ue5-coro-started/omni-man-invincible.gif)
 
 ## Asynchronous ##
 
