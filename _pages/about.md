@@ -7,4 +7,4 @@ I like to mess around with both Unreal Engine and Godot. I have a particular int
 
 My games: [Steam developer page](https://store.steampowered.com/developer/GnawPawStudios)
 
-Patreon: [Patreon](https://patreon.com/user?u=122434641)
+Patreon: [Patreon](https://www.patreon.com/Duroxxigar)
