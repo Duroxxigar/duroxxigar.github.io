@@ -22,8 +22,9 @@ Now when doing coroutines with this plugin, the coroutine can be in one of two m
 In order to be a latent coroutine, the function needs to have either a `FLatentActionInfo` or `FForceLatentCoroutine` parameter. If you want to expose this as a blueprint node, it needs to return `FAsyncCoroutine` and then do your typical `UFUNCTION()` specifiers.
 
 ```cpp
+// in the .h
 UFUNCTION(BlueprintCallable, meta=(Latent, LatentInfo="Info"))
-FAsyncCoroutine ACustomActor::ExampleLatent(FLatentActionInfo Info);
+FAsyncCoroutine ExampleLatent(FLatentActionInfo Info);
 
 // in the .cpp
 FAsyncCoroutine ACustomActor::ExampleLatent(FLatentActionInfo Info)
